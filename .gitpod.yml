@@ -1,0 +1,6 @@
+tasks:
+    - name: Static Server
+      command: python3 -m http.server 8080
+    - name: DB Server
+      command: sh ./scripts/start-db.sh
+      openMode: split-right
